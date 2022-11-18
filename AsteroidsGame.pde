@@ -36,11 +36,11 @@ public void keyPressed()
   lisa.accelerate(1);
 }
 if (key == 'q'){
-  lisa.myXspeed = 0;
-    lisa.myYspeed = 0;
+  lisa.setSpeed(0);
+    lisa.setYSpeed(0);
 }
   if (key == 's'){
-   lisa.hyperspace();
+    lisa.hyperspace();
   }
   lisa.move();
   lisa.show();
