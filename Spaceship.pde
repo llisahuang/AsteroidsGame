@@ -19,10 +19,24 @@ class Spaceship extends Floater
     myXspeed = 0;
     myYspeed = 0;
   }
- public void hyperspace(){
-   lisa.myXspeed = 0;
+  public void setSpeed (double n){
+    myXspeed = n;
+  }
+  
+  public double getSpeed (){
+    return myXspeed;
+  }
+  public void setYSpeed (double n){
+    myYspeed = n;
+  }
+  
+  public double getYSpeed (){
+    return myYspeed;
+  }
+  public void hyperspace(){
+  lisa.myXspeed = 0;
     lisa.myYspeed = 0;
     lisa.myCenterX = (int)(Math.random()*498)+1;
     lisa.myCenterY = (int)(Math.random()*498)+1;
-}
+  }
 }
