@@ -40,10 +40,7 @@ if (key == 'q'){
     lisa.myYspeed = 0;
 }
   if (key == 's'){
-    lisa.myXspeed = 0;
-    lisa.myYspeed = 0;
-    lisa.myCenterX = (int)(Math.random()*498)+1;
-    lisa.myCenterY = (int)(Math.random()*498)+1;
+   lisa.hyperspace();
   }
   lisa.move();
   lisa.show();
