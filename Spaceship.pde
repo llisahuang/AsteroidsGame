@@ -19,4 +19,10 @@ class Spaceship extends Floater
     myXspeed = 0;
     myYspeed = 0;
   }
+ public void hyperspace(){
+   lisa.myXspeed = 0;
+    lisa.myYspeed = 0;
+    lisa.myCenterX = (int)(Math.random()*498)+1;
+    lisa.myCenterY = (int)(Math.random()*498)+1;
+}
 }
