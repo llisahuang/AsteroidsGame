@@ -24,6 +24,11 @@ public void draw()
   textSize (20);
   fill(255);
   text ("Score: " + score + "/20",20,30);
+  if(score == 20){
+  textSize (50);
+  fill(255);
+  text ("YOU WIN!",140,250);
+  }
   lisa.move();
   lisa.show();
   for(int k = 0; k < ella.length; k++){
